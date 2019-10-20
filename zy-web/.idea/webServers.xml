@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="dbb139ae-cf15-470b-aecd-cf2780ac726c" name="test" url="http://10.224.24.215">
+        <fileTransfer host="10.224.24.215" port="22" rootFolder="/home/jiangshipan/jsp_repos/" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="55843013-3930-4bbf-8266-185751cb93f7" name="wjx" url="http://139.199.104.60">
+        <fileTransfer host="139.199.104.60" port="22" rootFolder="/usr/jsp" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
